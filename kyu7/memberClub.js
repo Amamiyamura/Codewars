@@ -6,7 +6,7 @@
 
 function openOrSenior(data){
     let hasil = [];                         // inisialisasi array kosong hasil
-    for (i = 0; i < data.length; i++) {     // Lakukan perulangan sebanyak data.length
+    for (let i = 0; i < data.length; i++) {     // Lakukan perulangan sebanyak data.length
         let usia = data[i][0];              // inisialisasi var baru usia dengan colom 0 dari iterasi ke i
         let handicap = data[i][1];          // inisialisasi var baru handicap dengan colom 1 dari iterasi ke i
         if (usia >= 55 && handicap > 7) {   // penkondisian: jika usia >= 55 dan handicap > 7 maka masukkan "Senior" ke hasil jika lainnya masukkan "Open" ke hasil

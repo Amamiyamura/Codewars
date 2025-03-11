@@ -4,7 +4,7 @@
 kata = "Kalo bukan aku siapa lagi";
 function ubahKata (kata) {
     let pisahKata = kata.split(" ");
-    for (i = 0; i < pisahKata.length; i++) {
+    for (let i = 0; i < pisahKata.length; i++) {
         pisahKata[i] = pisahKata[i][0].toUpperCase() + pisahKata[i].slice(1);
     } return pisahKata.join(" ");
 }
